@@ -1,11 +1,13 @@
 # Fleet-Database-Management-System
 This C-based Fleet Management System is designed to help Evergreen Airways track and manage its aircraft fleet in real-time. The program stores information for up to 50 aircraft and provides core functionalities to add, update, delete, search, and report on aircraft data. It uses a binary file (aircraft_data.dat) for persistent data storage between sessions.
 Each aircraft entry includes:
+
 •	Identification: ID, Model, and Registration Number.
 •	Location: Latitude and Longitude
 •	Status Info: Fuel Level, Speed, Maintenance Due (in days)
 •	Flight Info: Departing City, Destination, and Estimated Travel Time
 All the Key Features:
+
 	Add Aircraft: 
 •	Enter details like ID, model, location (latitude/longitude), fuel level, speed,          maintenance days left, departure and destination cities, and estimated travel time.
 •	 The system validates inputs with real-world operational constraints:
@@ -15,7 +17,8 @@ All the Key Features:
 	Update Aircraft: 
 •	Modify data such as location, fuel level, speed, maintenance status and flight routes details.
 •	 Allows editing of specific fields: location, fuel, speed, maintenance due and 
-            destination info    
+            destination info
+            
 •	Ensures updated values also follow constraints.
 	Search Aircraft: Find an aircraft quickly using its unique ID.
 •	Quickly find and display detailed info about any aircraft in the fleet using its ID.
