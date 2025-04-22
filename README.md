@@ -12,14 +12,22 @@ Each aircraft entry includes:
 
 All the Key Features:
 
-	Add Aircraft: 
+	Add Aircraft:
+
 •	Enter details like ID, model, location (latitude/longitude), fuel level, speed,          maintenance days left, departure and destination cities, and estimated travel time.
+
 •	 The system validates inputs with real-world operational constraints:
+
 	Fuel level must be between 20% and 100%
+
 	Speed must not exceed 800 km/h
+
 	Maintenance due must be at least 2 days
+
 	Update Aircraft: 
+
 •	Modify data such as location, fuel level, speed, maintenance status and flight routes details.
+
 •	 Allows editing of specific fields: location, fuel, speed, maintenance due and 
             destination info
             
