@@ -3,9 +3,13 @@ This C-based Fleet Management System is designed to help Evergreen Airways track
 Each aircraft entry includes:
 
 •	Identification: ID, Model, and Registration Number.
+
 •	Location: Latitude and Longitude
+
 •	Status Info: Fuel Level, Speed, Maintenance Due (in days)
+
 •	Flight Info: Departing City, Destination, and Estimated Travel Time
+
 All the Key Features:
 
 	Add Aircraft: 
